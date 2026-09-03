@@ -75,7 +75,7 @@ Menggunakan format `[Teks Tautan](URL)`.
 
 Menggunakan format `![Teks Alternatif](URL-Gambar)`.
 
-- Contoh: `![Logo Markdown](https://markdown-here.com/img/icon256.png)`
+- Contoh: ![Logo Markdown](https://picsum.photos/seed/picsum/300/200)
 
 ---
 
