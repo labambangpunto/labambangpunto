@@ -21,14 +21,13 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      # Langkah 1: Menghasilkan gambar ular menggunakan Platane/snk
+# Langkah 1: Menghasilkan gambar ular menggunakan Platane/snk
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=#ffffff&color_dots=#161b22,#444444,#777777,#aaaaaa,#ffffff
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
