@@ -4,3 +4,5 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/labambangpunto/labambangpunto/output/github-snake.svg" />
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/labambangpunto/labambangpunto/output/github-snake.svg" />
 </picture>
+<!-- Grafik 3D Tema Gelap (Night View) -->
+<img src="./profile-3d-contrib/profile-south-season-animate.svg" alt="3D Contribution Graph">
