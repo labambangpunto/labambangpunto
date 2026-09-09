@@ -1,14 +1,9 @@
 name: Generate Snake Animation
 
 on:
-  # Dijalankan secara otomatis setiap jam 00:00
   schedule:
     - cron: "0 0 * * *" 
-  
-  # Memungkinkan kamu menjalankan script ini secara manual kapan saja
   workflow_dispatch:
-  
-  # Dijalankan setiap kali kamu melakukan push ke branch main/master
   push:
     branches:
     - main
@@ -21,19 +16,18 @@ jobs:
     timeout-minutes: 5
     
     steps:
-# Langkah 1: Menghasilkan gambar ular menggunakan Platane/snk
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Konfigurasi kustomisasi warna ada di baris bawah ini
           outputs: |
-            dist/github-snake.svg?color_snake=#ffffff&color_dots=#161b22,#444444,#777777,#aaaaaa,#ffffff
+            dist/github-snake.svg?color_snake=red&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      # Langkah 2: Mengirim gambar yang sudah dibuat ke branch "output"
       - name: Push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
