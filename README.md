@@ -3,3 +3,7 @@
 <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph">
 
 <img src="https://raw.githubusercontent.com/labambangpunto/labambangpunto/output/github-snake.svg" alt="Snake Animation" />
+
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=labambangpunto" alt="Trophy" />
+</a>
