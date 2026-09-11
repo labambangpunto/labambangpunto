@@ -7,7 +7,7 @@
 <img src="https://raw.githubusercontent.com/labambangpunto/labambangpunto/output/github-snake.svg" alt="Snake Animation" />
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy-fork-two.vercel.app /?username=labambangpunto" alt="Trophy" />
+  <img src="https://github-profile-trophy-fork-two.vercel.app/?username=labambangpunto" alt="Trophy" />
 </a>
 
 [![Gist Card](https://github-readme-gist.vercel.app/api?gist_id=0350f9d0f02144bb356fc626b88c4508)](https://gist.github.com/labambangpunto/0350f9d0f02144bb356fc626b88c4508)
