@@ -2,6 +2,8 @@
 <p align="center">
   <img src="./media/pesawat-kertas.gif" width="450" alt="GIF di tengah" />
 </p>
+
+<p><strong>saya adalah generasi yang lahir saat kenologi sudah ada semuanya. Saya adalah generasi yang mengalami accumulated complexity gap. Saya juga memiliki Tacit knowledge yang terbatas, ya soalnya saya tumbuh dewasa pas semuanya udah ada</strong></p>
 <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph">
 
 <img src="https://raw.githubusercontent.com/labambangpunto/labambangpunto/output/github-snake.svg" alt="Snake Animation" />
